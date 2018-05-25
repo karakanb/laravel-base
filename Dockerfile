@@ -1,5 +1,5 @@
-# Composer Docker Container
 FROM php:7.2-fpm-alpine
+LABEL author="Burak Karakan <burak.karakan@gmail.com>"
 
 RUN apk add --no-cache --virtual .build-deps \
         $PHPIZE_DEPS \
